@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(77, 15, 246);
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  background-color: rgb(126, 7, 21);
+  border-color: tomato;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.cityname {
+  font-size: 36px;
+  color: purple;
+  font-weight: bold;
+}
